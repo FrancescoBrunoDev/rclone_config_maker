@@ -26,6 +26,6 @@ class Rclone {
     }
 }
 
-// Esempio di utilizzo
+// Execution
 const rclone = new Rclone();
 rclone.createConfig();
