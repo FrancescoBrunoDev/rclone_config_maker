@@ -16,7 +16,7 @@ class Rclone {
 
     async createConfig() {
         return fs.promises
-            .writeFile("rclone.conf", this.config)
+            .writeFile("./conf/rclone.conf", this.config)
             .then(() => {
                 console.log("File di configurazione rclone creato con successo.");
             })
